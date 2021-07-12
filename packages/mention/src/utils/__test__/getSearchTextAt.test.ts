@@ -30,8 +30,8 @@ describe('getSearchTextAt', () => {
       3,
       [''],
       {
-        matchingString: 'Max',
-        begin: 0,
+        matchingString: '',
+        begin: 3,
         end: 3,
       },
     ],
@@ -41,8 +41,8 @@ describe('getSearchTextAt', () => {
       14,
       ['@'],
       {
-        matchingString: 'one@example.c',
-        begin: 0,
+        matchingString: 'example.c',
+        begin: 4,
         end: 14,
       },
     ],
@@ -52,8 +52,8 @@ describe('getSearchTextAt', () => {
       19,
       ['@'],
       {
-        matchingString: 'one@example.c',
-        begin: 5,
+        matchingString: 'example.c',
+        begin: 9,
         end: 19,
       },
     ],

@@ -70,5 +70,5 @@
     // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
     "skipLibCheck": true
   },
-  "exclude": ["node_modules", "stories", "distTs"]
+  "exclude": ["node_modules", "stories", "distTs", "packages/docs"]
 }
